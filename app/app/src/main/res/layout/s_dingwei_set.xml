@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".T_setqddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#40E0D0">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="签到地点设置"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/back18"
+                android:layout_width="40dp"
+                android:layout_height="29dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/back"></Button>
+
+
+        </RelativeLayout>
+
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mmapView2"
+            android:layout_width="match_parent"
+            android:layout_height="412dp"
+            android:clickable="true"
+            android:focusable="true"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="101dp" />
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:background="@drawable/textview_border"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/btn_start2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="60dp"
+                android:text="定位"
+                android:background="@drawable/button_circle_shape"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="225dp" />
+
+            <Button
+                android:id="@+id/setqddd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_circle_shape"
+                android:layout_marginBottom="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="确认"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="225dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

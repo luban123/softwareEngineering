@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"/>
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="16dp"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="手机"
+        android:background="#ffffff"
+        android:paddingLeft="16dp"
+        android:id="@+id/login_yonghuming"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="密码"
+        android:background="#ffffff"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/login_mima"
+        android:inputType="textPassword"
+        android:ems="10"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:id="@+id/spinner_login"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="10dp"
+        android:entries="@array/spingarr"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#33CC99"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:id="@+id/Login_button"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <CheckBox
+            android:id="@+id/autoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"
+            android:textColor="#FF00CCCC"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="找回密码"
+            android:textSize="15sp"
+            android:textColor="#FF00CCCC"
+            android:layout_centerVertical="true"
+
+            android:clickable="true"
+            android:id="@+id/Return"/>
+    </RelativeLayout>
+</LinearLayout>
+

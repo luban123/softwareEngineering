@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sname3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="姓名"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/sno2"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginLeft="120dp"
+
+            android:gravity="center"
+            android:text="学号"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/reject"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:text="拒绝"
+            android:textColor="#008000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+
+
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="73dp"
+            android:layout_toStartOf="@+id/reject"
+            android:gravity="right"
+            android:text="同意"
+            android:textColor="#FF0000"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+</LinearLayout>

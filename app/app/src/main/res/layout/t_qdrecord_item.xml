@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+        <TextView
+            android:id="@+id/sname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="姓名"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/qtime"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="2020-06-22 19:29:29"
+            android:textColor="#000000"
+            android:textSize="17sp"
+             />
+
+        <TextView
+            android:id="@+id/place2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="200dp"
+            android:text="中国浙江省杭州市江干区白杨街道"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/qteachermsg"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="未签到"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+    </RelativeLayout>
+</LinearLayout>
